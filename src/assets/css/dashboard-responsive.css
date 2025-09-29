@@ -1,0 +1,108 @@
+@media(max-width:1440px) {
+	.job-shch-card .thm-btn {
+		padding: 6px 8px;
+	}
+
+	.job-shch-card img {
+		aspect-ratio: 2 / 1.2;
+	}
+
+	.job-shch-card-bttm {
+		padding: 15px 2px;
+
+	}
+
+	.job-shch-card-bttm button {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+		font-size: 13px;
+	}
+}
+
+@media (max-width:1270px) {
+	.dash-menu {
+		left: -297px;
+	}
+
+	.main-sec {
+		margin-left: 0px;
+	}
+
+	.header {
+		width: calc(100% - 0px);
+		margin-left: 0px;
+	}
+
+	body.resize-menu .dash-menu {
+		left: 0px;
+		z-index: 99999;
+	}
+
+	.dash-menu .dashbord-logo .cross-icon {
+		display: block;
+	}
+
+	.header .toggle {
+		display: block;
+	}
+
+	.header .toggle .fa-times:before {
+		content: "\f053";
+	}
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:991px) {
+	.dash-menu .nav-menu .nav-item .nav-link {
+		font-size: 14px;
+	}
+
+	.header {
+		padding: 10px;
+	}
+
+	.main-sec {
+		margin-top: 100px;
+	}
+
+	.dashboard-title {
+		font-size: 30px;
+	}
+
+
+	.thm-btn {
+		padding: 8px 20px;
+		font-size: 16px;
+	}
+
+	.header-fltr .header-fltr-bx {
+		display: none;
+	}
+
+	.quick-action-card {
+		margin-bottom: 10px;
+	}
+
+	.activity-img-box img {
+		margin-left: 0;
+	}
+
+	.dash-card {
+		padding: 15px 10px;
+	}
+
+	.dash-card h5 {
+		font-size: 22px;
+	}
+
+	.clear-card span {
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:767px) {}

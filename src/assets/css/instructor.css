@@ -1,0 +1,1566 @@
+/*global-css-start*/
+/* @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-Bold.woff2') format('woff2'), url('../fonts/allfonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-BoldItalic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-BlackItalic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-Black.woff2') format('woff2'), url('../fonts/allfonts/Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-Medium.woff2') format('woff2'), url('../fonts/allfonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-Italic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-ExtraBoldItalic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-ExtraLight.woff2') format('woff2'), url('../fonts/allfonts/Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-Light.woff2') format('woff2'), url('../fonts/allfonts/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-ExtraBold.woff2') format('woff2'), url('../fonts/allfonts/Poppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-ExtraLightItalic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-LightItalic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-SemiBoldItalic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-SemiBold.woff2') format('woff2'), url('../fonts/allfonts/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-MediumItalic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-Thin.woff2') format('woff2'), url('../fonts/allfonts/Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-ThinItalic.woff2') format('woff2'), url('../fonts/allfonts/Poppins-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/allfonts/Poppins-Regular.woff2') format('woff2'), url('../fonts/allfonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+/*global-css-start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 800;
+    color: #000;
+}
+
+a {
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #0055D2;
+    font-weight: 400;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: initial;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+button {
+    color: inherit;
+    border: none;
+    background-color: transparent;
+}
+
+p {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 27px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+hr {
+    background-color: #D0D0D0;
+    opacity: 1;
+    border-color: #D0D0D0;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form-select:focus,
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #ccc;
+}
+
+.fz-12 {
+    font-size: 12px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-16 {
+    font-size: 16px;
+}
+
+.fz-18 {
+    font-size: 18px;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-22 {
+    font-size: 22px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-26 {
+    font-size: 26px;
+}
+
+.fz-28 {
+    font-size: 28px;
+}
+
+.fz-30 {
+    font-size: 30px;
+}
+
+.fw-300 {
+    font-weight: 300 !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.text-primary {
+    color: #1E4877 !important;
+}
+
+.img-30 {
+    height: 30px;
+    width: 30px;
+}
+
+.img-40 {
+    height: 40px;
+    width: 40px;
+}
+
+.img-50 {
+    height: 50px;
+    width: 50px;
+}
+
+.img-60 {
+    height: 60px;
+    width: 60px;
+}
+
+.img-70 {
+    height: 70px;
+    width: 70px;
+}
+
+.img-80 {
+    height: 80px;
+    width: 80px;
+}
+
+.img-50 {
+    height: 90px;
+    width: 90px;
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+.height-40 {
+    height: 40px !important;
+}
+
+.height-100 {
+    height: 100px !important;
+}
+
+.height-300 {
+    height: 300px !important;
+}
+
+.text-primary {
+    color: #0055D2 !important;
+}
+
+@media(min-width:1920px) {
+    .container {
+        max-width: 1600px !important;
+    }
+
+}
+
+.main-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.thm-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #0055D2;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: 500;
+    border: 1px solid #0055D2;
+    transition: all 0.3s;
+    text-transform: capitalize;
+}
+
+.thm-btn:hover {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.thm-btn.grn {
+    background-color: #03ABAB;
+    border-color: #03ABAB;
+}
+
+.thm-btn.success {
+    background-color: #20AA65;
+    border-color: #20AA65;
+}
+
+.thm-btn.danger {
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.grn-txt {
+    color: #03ABAB !important;
+}
+
+.thm-btn.info {}
+
+.thm-btn.blck {
+    background-color: #000;
+    border-color: #000;
+}
+
+.add-btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #03ABAB;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.panel-cards {
+    padding: 20px;
+    border: 1px solid #0000004D;
+    position: relative;
+}
+
+.instructor-dashboard-layout .main-header {
+    background-color: #0055D2;
+}
+
+.main-header .custom-navbar .navbar-brand {
+    width: 104px;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn a {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-btn a.bell-btn {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-btn a span {
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 25px;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    color: #fff;
+}
+
+.nav-btn .bell-btn span {
+    background-color: #E33629;
+}
+
+.nav-btn .dropdown button {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.nav-btn .dropdown button img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-btn .dropdown button .nav-btn-conent h6 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.nav-btn .dropdown button .nav-btn-conent h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.main-header .custom-navbar .nav-item .nav-link.dropdown-toggle::after,
+.nav-btn .dropdown button.dropdown-toggle::after {
+    border: 0 !important;
+    content: '\f078';
+    font-family: "Font Awesome 5 Pro";
+    font-size: 15px;
+    top: 4px;
+    position: relative;
+    right: -4px;
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.nav-btn .dropdown button.dropdown-toggle::after {
+    border: 0;
+}
+
+.nav-btn .dropdown button.show.dropdown-toggle::after {
+    transform: rotate(180deg);
+}
+
+.nav-btn .dropdown .profile-menu {
+    border-radius: 0;
+    top: 59px;
+    border-color: #0000004D;
+    box-shadow: 0px 4px 12px 0px #0000001A;
+}
+
+.nav-btn .dropdown .profile-menu .dropdown-item {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+.nav-btn .dropdown .profile-menu .dropdown-item:hover {
+    background-color: #E2ECFA;
+}
+
+.main-sec {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.instructor-dashboard-layout .aside-bar {
+    padding: 20px 15px;
+    background-color: #0055D2;
+    border-radius: 20px;
+    position: relative;
+    z-index: 9;
+    min-height: calc(100vh - 150px);
+}
+
+.aside-bar {
+    padding: 20px 15px;
+
+
+
+
+
+
+    border-radius: 20px;
+}
+
+.aside-bar::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    /* background-image: url(../images/profile-shape.svg); */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+}
+
+.user-profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.user-profile img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.user-profile h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.user-profile h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.aside-bar-menu li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    padding: 15px 8px;
+    border-radius: 2px;
+    width: 100%;
+    border-bottom: 1px dashed rgb(255 255 255 / 50%);
+}
+
+.aside-bar-menu li a:hover,
+.aside-bar-menu li a.active {
+    background-color: #0d3aa7;
+    border-color: #0d3aa7;
+}
+
+.aside-bar .usr-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2156d5;
+    margin-bottom: 0;
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.course-filter {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0000004D;
+    height: 50px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.course-filter .form-control {
+    border: 0;
+}
+
+.course-filter button {
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    border-radius: 0 10px 10px 0;
+    width: 120px;
+}
+
+.course-list {
+    border: 1px solid #E2ECFA;
+    box-shadow: 0px 10px 20px 0px #0000000D;
+    background-color: #F6F7F9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.course-list-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-list-prog {
+    padding: 5px;
+    background-color: rgb(190 190 190 / 20%);
+}
+
+.course-list-prog .progress {
+    background-color: #fff;
+    border-radius: 0;
+    height: 8px;
+}
+
+.course-list-prog .bg-primary {
+    background-color: #0055D2 !important;
+}
+
+.course-list-prog p {
+    display: flex;
+    justify-content: space-between;
+    color: #615C5C;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.course-list-content h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.course-list-content h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0055D2;
+}
+
+.course-usr {
+    background-color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.course-usr span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.rating {
+    font-size: 14px;
+    color: #000;
+}
+
+.rating .fas {
+    color: #FF8343;
+}
+
+.rating .fal {
+    color: #A9A9A9;
+}
+
+.rating span {
+    font-size: 12px;
+    color: #869DBF;
+}
+
+.course-list-txt {
+    display: flex;
+    justify-content: end;
+}
+
+.course-list-txt p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin: 5px 30px;
+}
+
+.course-list-txt p span {
+    color: #A9A9A9;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.custom-pagination .pagination {
+    justify-content: center;
+}
+
+.custom-pagination .pagination .page-item {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #F1F1F1;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.custom-pagination .pagination .page-item .page-link {
+    padding: 0;
+    box-shadow: none;
+    border: 0;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.custom-pagination .pagination .page-item.active,
+.custom-pagination .pagination .page-item:hover {
+    background-color: #0055D2;
+    border-color: #0055D2;
+}
+
+.custom-pagination .pagination .page-item.active .page-link,
+.custom-pagination .pagination .page-item:hover .page-link {
+    color: #fff;
+}
+
+.thm-footer {
+    /* background-image: url(../images/footer-bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.footer-abt {
+    padding-right: 20px;
+}
+
+.footer-abt .brand {
+    filter: brightness(0) invert(1);
+}
+
+.footer-abt p {
+    color: #000;
+}
+
+.footer-abt .media a {
+    height: 40px;
+    width: 40px;
+    background-color: #FFFFFF0A;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.footer-abt .media a img {
+    width: 20px;
+}
+
+.footer-abt .media a:hover {
+    background-color: #fff;
+}
+
+.footer-abt .media a:hover img {
+    filter: brightness(0%);
+}
+
+.ftr-head {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.ftr-links li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.ftr-links li a::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 10px;
+    height: 7px;
+    width: 7px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.ftr-contact li a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.ftr-contact .ftr-head {
+    font-size: 18px;
+}
+
+.download-btn a img {
+    width: 120px;
+}
+
+.copy-right {
+    padding: 10px 0;
+    background-color: #000;
+    margin-top: 50px;
+}
+
+.copy-right a {
+    color: #fff;
+}
+
+.course-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.course-type-innr label {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #E2ECFA;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 220px;
+}
+
+.course-type-innr label input {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-color: #000000;
+}
+
+.course-type-innr label img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.course-type-innr label h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.panel-cards-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.panel-cards-footer-middle span {
+    display: inline-block;
+    width: 34px;
+    height: 3px;
+    background-color: #0000004D;
+    margin-left: 5px;
+}
+
+.panel-cards-footer-middle span.active {
+    background-color: #0055D2;
+}
+
+.course-type-bx label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.course-type-bx h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.course-type-bx h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #A9A9A9;
+}
+
+.course-type-bx .form-control,
+.course-type-bx .form-select {
+    height: 50px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    color: #000;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.course-bar {
+    padding: 20px 0;
+    background-color: #F6F7F9;
+    border: 1px solid #E2ECFA;
+    min-height: 100vh;
+}
+
+.course-bar-menu li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-left: 4px solid transparent;
+    padding: 0 20px;
+}
+
+.course-bar-menu li .course-bar-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.course-bar-menu li.active {
+    border-color: #0055D2;
+}
+
+.course-bar-menu li.active a {
+    color: #0055D2;
+}
+
+.course-bar-menu li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #615C5C;
+    position: relative;
+}
+
+.course-bar-menu li input[type="checkbox"] {
+    height: 22px;
+    width: 22px;
+    border-radius: 0;
+    border: 1px solid #615C5C;
+}
+
+.target-student .course-type-bx .form-control {
+    margin-top: 8px;
+}
+
+.target-student .course-type-bx {
+    margin-bottom: 15px;
+}
+
+.target-student .course-type-bx .delete-icon {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    color: #ff0000;
+}
+
+.course-type-bx-append {
+    position: relative;
+}
+
+.course-structure h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.course-structure p {
+    color: #A9A9A9;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.content-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 16px;
+    color: #000;
+}
+
+.content-list li::after {
+    position: absolute;
+    content: '\f00c';
+    left: 0;
+    top: 0;
+    font-family: "Font Awesome 5 Pro";
+    color: #03ABAB;
+}
+
+.course-type-bx input[type="file"]::-webkit-file-upload-button {
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.course-table thead th {
+    font-size: 16px;
+    font-weight: 500;
+    color: #A9A9A9;
+}
+
+.course-table {
+    border: 0 !important;
+}
+
+.course-table tbody td {
+    background-color: #F6F7F9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.course-table .form-switch .form-check-input {
+    box-shadow: none;
+}
+
+.course-table .form-switch .form-check-input:checked {
+    background-color: #29CC7A;
+    border-color: #29CC7A;
+}
+
+.cupon-model .modal-title {
+    background-color: #0055D2;
+    padding: 10px;
+    color: #fff;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.cupon-model .btn-close {
+    background-image: none;
+    opacity: 1;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 0;
+    box-shadow: none;
+    z-index: 999;
+}
+
+.intro-card {
+    background-color: #F6F7F9;
+    border: 1px solid #E2ECFA;
+}
+
+.upload-document-innr {
+    display: flex;
+    justify-content: center;
+}
+
+.upload-document-innr input[type="file"] {
+    display: none;
+}
+
+.communication-tab .nav .tab-item {
+    margin-right: 20px;
+}
+
+.communication-tab .nav .tab-item .tab-link {
+    padding: 10px 8px;
+    border: 1px solid #000;
+}
+
+.communication-tab .nav .tab-item .tab-link.active {
+    background-color: #0055D2;
+    border-color: #0055D2;
+    color: #fff;
+}
+
+.payment-method h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.payment-method-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #F6F7F9;
+    box-shadow: 0px 10px 20px 0px #0000000D;
+    border: 1px solid #E2ECFA;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.withdraw-table .table {
+    border: 0;
+}
+
+.withdraw-table tr {
+    border-width: 0;
+}
+
+.withdraw-table thead th {
+    font-size: 16px;
+    font-weight: 500;
+    border-width: 0;
+}
+
+.withdraw-table tbody td {
+    color: #A9A9A9 !important;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    background-color: #F6F7F9 !important;
+}
+
+.custom-model .modal-title {
+    padding: 10px;
+    background-color: #0055D2;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+}
+
+.custom-model .btn-close {
+    background-image: none;
+    opacity: 1;
+    box-shadow: none;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.withdraw-amount {
+    text-align: center;
+}
+
+.withdraw-amount form h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.withdraw-amount form h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #8F898B;
+    margin-bottom: 40px;
+}
+
+.withdraw-amount-bx {
+    display: flex;
+    justify-content: center;
+}
+
+.withdraw-amount-bx .form-control {
+    border: 0;
+    border-bottom: 1px solid #0055D2;
+    border-radius: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+.add-btn {
+    text-align: left;
+}
+
+.add-btn button {
+    padding: 8px 15px;
+    background-color: #F6F7F9;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.add-btn button.selected,
+.add-btn button:hover {
+    background-color: #03ABAB;
+    color: #fff;
+}
+
+.withdraw-success-innr img {
+    height: 130px;
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+.withdraw-success-innr h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    margin: 20px 0;
+}
+
+.course-rating-star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-rating-star .rating {
+    font-size: 30px;
+    color: #000000;
+}
+
+.course-rating-star span {
+    font-size: 30px;
+}
+
+.course-rating-innr {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.course-rating-innr .course-rating-innr-img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+.course-rating-innr .course-rating-innr-contnt h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.custom-frm-bx {
+    margin-bottom: 15px;
+}
+
+.custom-frm-bx .form-select,
+.custom-frm-bx .form-control {
+    height: 55px;
+    border: 1px solid #0000004D;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.custom-frm-bx textarea.form-control {
+    height: 120px;
+}
+
+.change-profile-bar img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.custom-model .modal-title {
+    padding: 10px;
+    background-color: #0055D2;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+}
+
+.custom-model .btn-close {
+    background-image: none;
+    opacity: 1;
+    box-shadow: none !important;
+    padding: 0 !important;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.dash-cards {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #0055D21A;
+    border-radius: 15px;
+    column-gap: 15px;
+    margin-bottom: 10px;
+}
+
+.dash-cards span {
+    height: 77px;
+    width: 77px;
+    line-height: 77px;
+    text-align: center;
+    background-color: #fff;
+    color: #0055D2;
+    font-size: 32px;
+    border-radius: 50px;
+}
+
+.dash-cards h5 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #404244;
+}
+
+.dash-cards p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #7AA1DB;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+
+.product-card {
+    padding: 10px;
+    /* box-shadow: 0px 10px 20px 0px #0000000D; */
+    border: 1px solid #E2ECFA;
+    background-color: #F6F7F9;
+    border-radius: 10px;
+}
+
+.product-img {
+    position: relative;
+    aspect-ratio: 2 / 1.4;
+    width: 100%;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.badges {
+    display: inline-block !important;
+    padding: 5px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.product-content h5 a {
+    font-size: 18px;
+    color: #626262;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.product-content .list-unstyled li {
+    display: inline-block;
+}
+
+.product-content .list-unstyled li span {
+    padding: 5px 10px;
+    background-color: rgb(0 85 210 / 20%);
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.course-usr-new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.course-usr-new img {
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.course-usr-new span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.product-card .thm-btn {
+    padding: 6px 15px;
+    font-size: 14px;
+}
+
+.dashboard__nav-wrap .nav .nav-item {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboard__nav-wrap .nav .nav-item .nav-link {
+    padding: 5px 20px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dashboard__nav-wrap .nav .nav-item .nav-link:hover,
+.dashboard__nav-wrap .nav .nav-item .nav-link.active {
+    background-color: #0055D2;
+    border-color: #0055D2;
+    color: #fff;
+}
+
+.accordion-body>div {
+    padding: 8px;
+}
+
+.thm-btn.info {
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    color: #fff;
+    ;
+}
+
+.card thead th {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    background-color: rgb(33 86 213 / 20%);
+}
+
+
+.card tbody td {
+    background-color: #F6F7F9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.badges {
+    color: #fff !important;
+    border: none !important;
+}
